@@ -24,3 +24,10 @@ $c = "fail";
 $volledigezin = "T" . $a . " and " . $c . " " . $b . " never " . $c . " to " . "t" . $a . ".";
 
 echo $volledigezin;
+
+
+$a = "\"omgaan";
+$b = ", met";
+$c = "teleu";
+
+$volledigezin = "De cursus" . $a . $b . " ". $c . "rstellingen" . "kan vanavond helaas niet doorgaan";
