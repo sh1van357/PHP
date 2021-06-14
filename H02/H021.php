@@ -31,3 +31,5 @@ $b = ", met";
 $c = "teleu";
 
 $volledigezin = "De cursus" . $a . $b . " ". $c . "rstellingen" . "kan vanavond helaas niet doorgaan";
+
+echo $volledigezin;
