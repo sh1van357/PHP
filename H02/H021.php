@@ -22,3 +22,5 @@ $b = ", but";
 $c = "fail";
 
 $volledigezin = "T" . $a . " and " . $c . $b . "never" . $c . "to" . "t" . $a;
+
+echo $volledigezin;
