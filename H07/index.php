@@ -11,7 +11,7 @@ if (isset($_GET["loguit"])) {
     $_SESSION = array();
     session_destroy();
 }
-//login knop en tekst op scherm
+//login knop en tekst op scherm.
 if (isset($_POST['knop'])
     && isset($gebruikers[$_POST["login"]])
     && $gebruikers[$_POST["login"]] ["pwd"] == $_POST['pwd']) {

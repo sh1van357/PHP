@@ -13,7 +13,7 @@ try {
 
 $query = "select * from cursist";
 $result = $db->query($query);
-//if statement voor result
+//if statement voor resultaat
 if ($result === false) {
     echo "Er is iets fout gegaan";
 } else {
