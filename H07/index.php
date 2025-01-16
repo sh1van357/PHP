@@ -22,6 +22,7 @@ if (isset($_POST['knop'])
 }
 ?>
 
+
 <html>
 <body>
 <h1><?php echo $message; ?></h1>
@@ -40,5 +41,6 @@ if (isset($_POST['knop'])
 <p><a href="website.php">Website</a></p>
 <p><a href="index.php?loguit">Uitloggen</a></p>
 <p><a href="admin.php">Admin</a></p>
+<p><a href="test.php">test</a></p>
 </body>
 </html>
