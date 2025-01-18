@@ -1,6 +1,6 @@
 <?php
 
-
+//test of het pusht
 
 // Database configuratie
 $host = 'localhost'; // Of je serveradres
